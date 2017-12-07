@@ -22,3 +22,5 @@ FORMS    += mainwindow.ui
 PROJNAME = RobotApp
 INSTTYPE = APP
 include(RobotSDK_Main.pri)
+
+LIBS += -L/home/mini/OpenNI-Linux-x64-2.3/Redist -lOpenNI2
